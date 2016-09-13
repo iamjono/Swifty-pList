@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		_LinkFileRef_PerfectLib_via_plist /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
+		_LinkFileRef_PerfectLib_via_plistTests /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
+		_LinkFileRef_plist_via_plistTests /* plist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_plist" /* plist.framework */; };
+		"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Bytes.swift" /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Bytes.swift" /* Bytes.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Dir.swift" /* Dir.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Dir.swift" /* Dir.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/File.swift" /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/File.swift" /* File.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/JSONConvertible.swift" /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/JSONConvertible.swift" /* JSONConvertible.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Log.swift" /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Log.swift" /* Log.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift */; };
+		"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Utilities.swift" /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Utilities.swift" /* Utilities.swift */; };
+		__src_cc_ref_Sources/plist.swift /* plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/plist.swift /* plist.swift */; };
+		__src_cc_ref_Tests/plistTests/plistTests.swift /* plistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/plistTests/plistTests.swift /* plistTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E019190F1D883CB400EFF5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_PerfectLib";
+			remoteInfo = PerfectLib;
+		};
+		E01919101D883CB400EFF5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_plist";
+			remoteInfo = plist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E01919111D883D4800EFF5A7 /* ApplicationConfiguration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ApplicationConfiguration.plist; sourceTree = "<group>"; };
+		E01919121D883D5200EFF5A7 /* ApplicationConfiguration.plist.cpy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ApplicationConfiguration.plist.cpy; sourceTree = "<group>"; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Bytes.swift" /* Bytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bytes.swift; path = "Packages/PerfectLib-2.0.0/Sources/PerfectLib/Bytes.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Dir.swift" /* Dir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Dir.swift; path = "Packages/PerfectLib-2.0.0/Sources/PerfectLib/Dir.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/File.swift" /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = "Packages/PerfectLib-2.0.0/Sources/PerfectLib/File.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/JSONConvertible.swift" /* JSONConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JSONConvertible.swift; path = "Packages/PerfectLib-2.0.0/Sources/PerfectLib/JSONConvertible.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Log.swift" /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Log.swift; path = "Packages/PerfectLib-2.0.0/Sources/PerfectLib/Log.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PerfectError.swift; path = "Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectError.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PerfectServer.swift; path = "Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectServer.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftCompatibility.swift; path = "Packages/PerfectLib-2.0.0/Sources/PerfectLib/SwiftCompatibility.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SysProcess.swift; path = "Packages/PerfectLib-2.0.0/Sources/PerfectLib/SysProcess.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Utilities.swift" /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = "Packages/PerfectLib-2.0.0/Sources/PerfectLib/Utilities.swift"; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/plist.swift /* plist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = plist.swift; path = Sources/plist.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/plistTests/plistTests.swift /* plistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = plistTests.swift; path = Tests/plistTests/plistTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_plist.xcodeproj/Configs/Debug.xcconfig /* plist.xcodeproj/Configs/Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = plist.xcodeproj/Configs/Debug.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_plist.xcodeproj/Configs/Project.xcconfig /* plist.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = plist.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_plist.xcodeproj/Configs/Release.xcconfig /* plist.xcodeproj/Configs/Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = plist.xcodeproj/Configs/Release.xcconfig; sourceTree = "<group>"; };
+		"_____Product_PerfectLib" /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_plist" /* plist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = plist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_plistTests" /* plistTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = plistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_PerfectLib" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_plist" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_PerfectLib_via_plist /* PerfectLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_plistTests" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_PerfectLib_via_plistTests /* PerfectLib.framework in Frameworks */,
+				_LinkFileRef_plist_via_plistTests /* plist.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		Dependencies_ /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_PerfectLib" /* PerfectLib */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		TestProducts_ /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_plistTests" /* plistTests.xctest */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				E01919111D883D4800EFF5A7 /* ApplicationConfiguration.plist */,
+				E01919121D883D5200EFF5A7 /* ApplicationConfiguration.plist.cpy */,
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				Dependencies_ /* Dependencies */,
+				"_______Tests_" /* Tests */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				TestProducts_ /* Tests */,
+				"_____Product_PerfectLib" /* PerfectLib.framework */,
+				"_____Product_plist" /* plist.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_plist.xcodeproj/Configs/Project.xcconfig /* plist.xcodeproj/Configs/Project.xcconfig */,
+				__PBXFileRef_plist.xcodeproj/Configs/Debug.xcconfig /* plist.xcodeproj/Configs/Debug.xcconfig */,
+				__PBXFileRef_plist.xcodeproj/Configs/Release.xcconfig /* plist.xcodeproj/Configs/Release.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_plist" /* plist */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_PerfectLib" /* PerfectLib */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Bytes.swift" /* Bytes.swift */,
+				"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Dir.swift" /* Dir.swift */,
+				"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/File.swift" /* File.swift */,
+				"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/JSONConvertible.swift" /* JSONConvertible.swift */,
+				"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Log.swift" /* Log.swift */,
+				"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift */,
+				"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift */,
+				"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift */,
+				"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift */,
+				"__PBXFileRef_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Utilities.swift" /* Utilities.swift */,
+			);
+			name = PerfectLib;
+			sourceTree = "<group>";
+		};
+		"_______Group_plist" /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/plist.swift /* plist.swift */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		"_______Group_plistTests" /* plistTests */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Tests/plistTests/plistTests.swift /* plistTests.swift */,
+			);
+			name = plistTests;
+			sourceTree = "<group>";
+		};
+		"_______Tests_" /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_plistTests" /* plistTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_PerfectLib" /* PerfectLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_PerfectLib" /* Build configuration list for PBXNativeTarget "PerfectLib" */;
+			buildPhases = (
+				CompilePhase_PerfectLib /* Sources */,
+				"___LinkPhase_PerfectLib" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectLib;
+			productName = PerfectLib;
+			productReference = "_____Product_PerfectLib" /* PerfectLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_plist" /* plist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_plist" /* Build configuration list for PBXNativeTarget "plist" */;
+			buildPhases = (
+				CompilePhase_plist /* Sources */,
+				"___LinkPhase_plist" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_PerfectLib /* PBXTargetDependency */,
+			);
+			name = plist;
+			productName = plist;
+			productReference = "_____Product_plist" /* plist.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_plistTests" /* plistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_plistTests" /* Build configuration list for PBXNativeTarget "plistTests" */;
+			buildPhases = (
+				CompilePhase_plistTests /* Sources */,
+				"___LinkPhase_plistTests" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_PerfectLib /* PBXTargetDependency */,
+				__Dependency_plist /* PBXTargetDependency */,
+			);
+			name = plistTests;
+			productName = plistTests;
+			productReference = "_____Product_plistTests" /* plistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "plist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_PerfectLib" /* PerfectLib */,
+				"______Target_plist" /* plist */,
+				"______Target_plistTests" /* plistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_PerfectLib /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Bytes.swift" /* Bytes.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Dir.swift" /* Dir.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/File.swift" /* File.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/JSONConvertible.swift" /* JSONConvertible.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Log.swift" /* Log.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift in Sources */,
+				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Utilities.swift" /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_plist /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/plist.swift /* plist.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_plistTests /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Tests/plistTests/plistTests.swift /* plistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_PerfectLib /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_PerfectLib" /* PerfectLib */;
+			targetProxy = E019190F1D883CB400EFF5A7 /* PBXContainerItemProxy */;
+		};
+		__Dependency_plist /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_plist" /* plist */;
+			targetProxy = E01919101D883CB400EFF5A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_PerfectLib /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = plist.xcodeproj/PerfectLib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				LIBRARY_SEARCH_PATHS = "\"$(PROJECT_TEMP_DIR)/SymlinkLibs/\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectLib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_plist /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = plist.xcodeproj/plist_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				LIBRARY_SEARCH_PATHS = "\"$(PROJECT_TEMP_DIR)/SymlinkLibs/\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = plist;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_plistTests /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = plist.xcodeproj/plistTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(PROJECT_TEMP_DIR)/SymlinkLibs/\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		"___DebugConf_PerfectLib" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = plist.xcodeproj/PerfectLib_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				LIBRARY_SEARCH_PATHS = "\"$(PROJECT_TEMP_DIR)/SymlinkLibs/\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectLib;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_plist" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = plist.xcodeproj/plist_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				LIBRARY_SEARCH_PATHS = "\"$(PROJECT_TEMP_DIR)/SymlinkLibs/\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = plist;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_plistTests" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = plist.xcodeproj/plistTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(PROJECT_TEMP_DIR)/SymlinkLibs/\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_plist.xcodeproj/Configs/Release.xcconfig /* plist.xcodeproj/Configs/Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_plist.xcodeproj/Configs/Debug.xcconfig /* plist.xcodeproj/Configs/Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "plist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_PerfectLib" /* Build configuration list for PBXNativeTarget "PerfectLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_PerfectLib" /* Debug */,
+				_ReleaseConf_PerfectLib /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_plist" /* Build configuration list for PBXNativeTarget "plist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_plist" /* Debug */,
+				_ReleaseConf_plist /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_plistTests" /* Build configuration list for PBXNativeTarget "plistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_plistTests" /* Debug */,
+				_ReleaseConf_plistTests /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}

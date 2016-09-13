@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>token</key>
+	<string>xxx</string>
+	<key>postgresdbname</key>
+	<string>xxx</string>
+	<key>postgreshost</key>
+	<string>localhost</string>
+	<key>postgresport</key>
+	<string>5432</string>
+	<key>postgrespwd</key>
+	<string>xxx</string>
+	<key>postgresuser</key>
+	<string>xxx</string>
+	<key>clientid</key>
+	<string>xxx</string>
+	<key>clientsecret</key>
+	<string>xxx</string>
+</dict>
+</plist>
