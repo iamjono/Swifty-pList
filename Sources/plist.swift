@@ -54,16 +54,16 @@ func GetAPIToken() -> String {
 import Foundation
 import PerfectLib
 
-struct Plist {
+public struct Plist {
 
-	enum PlistError: Error {
+	public enum PlistError: Error {
 		case FileNotWritten
 		case FileDoesNotExist
 	}
 
 	let name:String
 
-	init?(name:String) {
+	public init?(name:String) {
 
 		self.name = name
 
@@ -73,7 +73,7 @@ struct Plist {
 		}
 	}
 
-	func getValuesInPlistFile() -> NSDictionary?{
+	public func getValuesInPlistFile() -> NSDictionary?{
 		let thisFile = File("\(name).plist")
 
 		if thisFile.exists {
@@ -86,7 +86,7 @@ struct Plist {
 		}
 	}
 
-	func getMutablePlistFile() -> NSMutableDictionary?{
+	public func getMutablePlistFile() -> NSMutableDictionary?{
 		let thisFile = File("\(name).plist")
 
 		if thisFile.exists {
@@ -99,7 +99,7 @@ struct Plist {
 		}
 	}
 
-	func addValuesToPlistFile(dictionary:NSDictionary) throws {
+	public func addValuesToPlistFile(dictionary:NSDictionary) throws {
 		let thisFile = File("\(name).plist")
 
 		if thisFile.exists {
